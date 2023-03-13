@@ -1,0 +1,43 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-03-13T03:57:17.008Z",
+    "end": "2023-03-13T03:57:17.323Z",
+    "duration": 315
+  },
+  "tests": [
+    {
+      "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "fullTitle": "index.js cats is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "\"before each\" hook for \"appends a cat to the end of the cats array\"",
+      "fullTitle": "index.js Array functions \"before each\" hook for \"appends a cat to the end of the cats array\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot set properties of undefined (setting 'length')\n    at Context.<anonymous> (test/indexTest.js:35:19)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "Cannot set properties of undefined (setting 'length')"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "fullTitle": "index.js cats is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
